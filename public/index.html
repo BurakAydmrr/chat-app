@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.3.2/socket.io.js" integrity="sha512-zN6KYOtONNTOGXz0RkWX2EpavN9VdIs+2w+To+fhciFv83YA9maUpi2lzZWrOfKXdFIZZomWufBznkyHi3a8oQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    
+    <div id="chat-wrap">
+        <h2>BA CHAT</h2>
+
+        <div id="chat-window">
+            <div id="output"></div>
+            <div id="feedback"></div>
+            <div>
+                <input type="text" id="sender" placeholder="Ad">
+                <input type="text" id="message" placeholder="Mesaj">
+                <button id="sumbitBtn">Gönder</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="chat.js" charset="utf-8"></script>
+</body>
+</html>
