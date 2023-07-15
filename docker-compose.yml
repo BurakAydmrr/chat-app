@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+  chat_app:
+    build: ./
+    volumes:
+      - ./app:/usr/src/app
+    ports:
+      - 3000:3000    

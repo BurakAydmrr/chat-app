@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "init": "^0.1.2",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.0"
+  }
+}
